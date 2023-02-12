@@ -1,0 +1,10 @@
+bird(owl).
+bird(crow).
+bird(sparrow).
+birds(eagle).
+birds(crow).
+birds(parrot).
+birds(bat).
+birds(crane).
+can_fly(X):-
+    bird(X).
